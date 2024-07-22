@@ -1,0 +1,29 @@
+{
+    "name": "Extensions",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Remote": "github:Edsols-Innovations/Remote#3867b66d726701a604bccecf558b7981f5aea781",
+        "Superbit": "github:Edsols-Innovations/Superbit#5f668f71fe722cc7a5031cbd841c6827f285e23c",
+        "sensor Board": "github:Edsols-Innovations/Sensor-Expansion#b47927f631715e698c60c359869778bf573c114b",
+        "M-bit": "github:Edsols-Innovations/M-Bit#d9d93556dbdcb205257280fcea87af2bf6afcf34"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
